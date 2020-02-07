@@ -1,0 +1,401 @@
+@import "../../theme/palette";
+
+@media (any-hover: hover) {
+  .transferButton {
+    &:hover {
+      background-color: $btn-blue-hover;
+    }
+  }
+  .reverseButton {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .button {
+    &:hover {
+      background-color: #c4c6c9;
+      box-shadow: none;
+    }
+  }
+  .activeButton {
+    &:hover {
+      box-shadow: none;
+      background-color: $blue;
+    }
+  }
+  .buttonChart {
+    &:hover {
+      background-color: #c4c6c9;
+    }
+  }
+  .activeChartButton {
+    &:hover {
+      background-color: #6c91e0;
+    }
+  }
+  .currencyLabel {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .activeLabel {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.mainWrapper {
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.wrapperWallets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapperWallet {
+  width: 343px;
+  padding: 24px;
+  border: 1px solid #3878ff;
+  border-radius: 8px;
+  background-color: $white;
+  border-bottom: 3px solid $blue;
+  margin: 0 8px 24px 8px;
+}
+
+.titleWallet {
+  color: #4c6180;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.wrapperCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.count {
+  color: #1d2531;
+  font-size: 20px;
+  line-height: 43px;
+}
+
+.value {
+  line-height: 24px;
+  width: 55px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  background-color: #dfe4ec;
+  text-align: center;
+}
+
+.wrapperButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  outline: none;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 6px -1px rgba(127, 148, 179, 0.5);
+  border: none;
+  margin-right: 15px;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:active {
+    background-color: #dadcdf;
+    box-shadow: none;
+  }
+}
+
+.wrapperChart {
+  width: 736px;
+  margin: 0 auto;
+  background-color: $white;
+  border-radius: 8px;
+  padding: 24px 17px;
+}
+
+.titleChart {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.wrapperHeaderChart {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.buttonChart {
+  font-family: "Nunito", sans-serif;
+  padding: 7px 0;
+  font-size: 10px;
+  font-weight: 800;
+  border: 1px solid #cfd7e3;
+  border-right: 0;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 60px;
+  &:last-of-type {
+    border-right: 1px solid #cfd7e3;
+  }
+  &:active {
+    background-color: #dadcdf;
+  }
+}
+
+.yearButton {
+  border-radius: 4px 0 0 4px;
+}
+
+.activeChartButton {
+  color: #fff;
+  background-color: #6c91e0;
+  border-color: #6c91e0;
+  border-left: 0;
+  border-right: 0;
+  & + .buttonChart {
+    border-left: 0;
+  }
+  &:last-of-type {
+    border-color: #6c91e0;
+  }
+  &:active {
+    background-color: #6c91e0;
+  }
+}
+
+.hourButton {
+  border-radius: 0 4px 4px 0;
+}
+
+.activeButton {
+  background-color: $blue;
+  box-shadow: none;
+  &:active {
+    background-color: $blue;
+    box-shadow: none;
+  }
+}
+
+.mainInner {
+  width: 736px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: $white;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+  padding: 24px;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: #1d2531;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.wrapperLabel {
+  position: relative;
+}
+
+.field {
+  height: 40px;
+  padding-left: 12px;
+  width: 324px;
+  border: 1px solid #cfd7e3;
+  border-radius: 4px;
+  background-color: $white;
+  padding-right: 55px;
+  &::placeholder {
+    color: $dark-grey;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+  }
+}
+
+
+.fieldActive {
+  &:focus {
+    border-color: $input-focus;
+  }
+}
+
+.reverseButton {
+  border: none;
+  height: 40px;
+  background-color: transparent;
+  align-self: flex-end;
+  padding: 0 10px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.wrapperGetInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldCoin {
+  position: absolute;
+  top: 32px;
+  right: 8px;
+  height: 24px;
+  padding: 0 4px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #dfe4ec;
+  color: $dark-grey;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+
+.titleTransfer {
+  color: #1d2531;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 22px;
+}
+
+.wrapperTransferButton {
+  text-align: center;
+}
+
+.transferButton {
+  height: 40px;
+  width: 168px;
+  border-radius: 4px;
+  background-color: #3878ff;
+  font-size: 14px;
+  border: none;
+  letter-spacing: 1.35px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  &:active {
+    background-color: $btn-blue-active;
+  }
+}
+
+.currencyLabel {
+  cursor: pointer;
+  margin-right: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.activeLabel {
+  color: #3878ff;
+  &:active {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainWrapper {
+    width: 100%;
+  }
+  .mainInner {
+    width: 100%;
+  }
+  .wrapperChart {
+    width: 100%;
+  }
+  .count {
+    font-size: 18px;
+  }
+  .titleWallet {
+    font-size: 14px;
+  }
+  .button {
+    width: 36px;
+    height: 36px;
+  }
+  .wrapperLabel {
+    width: 100%;
+  }
+  .field {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .wrapperWallets {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapperWallet {
+    width: 368px;
+    margin: 0 0 16px 0;
+    &:last-of-type {
+      margin-bottom: 24px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .wrapperWallets {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapperWallet {
+    padding: 24px 15px;
+  }
+  .formWrapper {
+    flex-direction: column;
+  }
+  .reverseButton {
+    margin-top: 5px;
+    align-self: center;
+    padding: 0;
+    transform: rotate(90deg);
+  }
+  .buttonChart {
+    width: 35px;
+    padding: 4px 0;
+    font-size: 7px;
+  }
+  .titleChart {
+    font-size: 14px;
+  }
+  .wrapperChart {
+    padding: 24px 15px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapperWallet {
+    width: 100%;
+  }
+}

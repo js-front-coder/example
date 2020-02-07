@@ -1,0 +1,54 @@
+@import '../../../theme/palette';
+
+@media (any-hover: hover) {
+  .close {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperModal {
+  width: 340px;
+  text-align: center;
+  position: relative;
+  border-radius: 8px;
+  padding: 40px 15px 24px;
+  background-color: $white;
+  button {
+    width: 204px;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.close {
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.info {
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  margin: 32px 0 40px 0;
+  span {
+    line-height: 16px;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}

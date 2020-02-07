@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>491A44B1-7DC9-4894-BCD8-9F3E3A43ACD3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M20.999987,1 C20.723987,1 20.444987,1.057 20.183987,1.174 L2.18398701,9.225 C1.40398701,9.573 0.931987014,10.379 1.00798701,11.229 C1.08398701,12.08 1.69198701,12.789 2.52098701,12.993 L9.41298701,14.688 L11.578987,21.598 C11.829987,22.4 12.555987,22.959 13.395987,22.998 C13.426987,23 13.456987,23 13.486987,23 C14.290987,23 15.020987,22.518 15.332987,21.771 L22.845987,3.771 C23.160987,3.014 22.982987,2.141 22.395987,1.568 C22.014987,1.196 21.510987,1 20.999987,1 L20.999987,1 Z M20.999987,3 L13.486987,21 L10.983987,13.016 L2.99998701,11.05 L20.999987,3 L20.999987,3 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.2.-Verify-Profile" transform="translate(-634.000000, -37.000000)">
+            <g id="Group-3" transform="translate(633.000000, 36.000000)">
+                <g id="Send" transform="translate(-0.000000, 0.000400)">
+                    <g id="UI/Icons/24-dashboard">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

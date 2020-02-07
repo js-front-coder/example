@@ -1,0 +1,205 @@
+@import "../../theme/palette";
+
+@media (any-hover: hover) {
+  .itemLink {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .activeLink {
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .statusCompleteButton {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .wrapperLogout {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.03), 0 2px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+.wrapperLogo {
+  height: 100%;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $blue;
+  margin-right: 16px;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.rightBlock {
+  display: flex;
+  margin-right: 56px;
+  align-items: center;
+}
+
+.blockLinks {
+  display: flex;
+  margin-right: 12px;
+}
+
+.itemLink {
+  cursor: pointer;
+  font-weight: 700;
+  color: $dark-grey;
+  text-decoration: none;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  svg {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  span {
+    line-height: 22px;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.settingsNotification {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #ffffff;
+  background-color: #ffd338;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+.activeLink {
+  outline: 0;
+  color: $white;
+  border-radius: 4px;
+  background-color: $blue;
+  box-shadow: 0 4px 8px 0 #99baff;
+  &:focus {
+    outline: 0;
+  }
+  svg, svg use {
+    fill: #ffffff;
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+
+.linkImg {
+  margin-top: -2px;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.logoutImg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.wrapperLogout {
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid $dark-grey;
+  height: 32px;
+  margin-left: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+.statusGood {
+  display: flex;
+  padding-left: 12.5px;
+  box-sizing: border-box;
+  height: 41px;
+  width: 374px;
+  border: 1px solid #ffce4d;
+  border-radius: 4px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statusCompleteButton {
+  height: 40px;
+  width: 155px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1.35px;
+  line-height: 19px;
+  background-color: #ffce4d;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.headerLeftSide {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+@media(max-width: 1300px) {
+  .wrapperLogout {
+    display: none;
+  }
+  .blockLinks {
+    display: none;
+  }
+  .rightBlock {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .wrapperHeader {
+    height: 64px;
+  }
+  .wrapperLogo {
+    width: 96px;
+    img {
+      width: 50px;
+      height: 30px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .wrapperLogo {
+    width: 64px;
+    margin-right: 10px;
+  }
+  .statusCompleteButton {
+    width: 30px;
+    height: 30px;
+    font-size: 9px;
+  }
+  .rightBlock {
+    margin-right: 0;
+  }
+}

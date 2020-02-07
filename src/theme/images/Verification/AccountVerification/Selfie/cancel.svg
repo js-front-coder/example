@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="7px" viewBox="0 0 8 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>37A668AA-C5EF-4BC6-87C0-BDE77CE59F9D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.9402,7.3582 C12.5492,6.9672 11.9172,6.9672 11.5262,7.3582 L10.0002,8.8842 L8.4732,7.3582 C8.0832,6.9672 7.4502,6.9672 7.0592,7.3582 C6.6692,7.7492 6.6692,8.3822 7.0592,8.7722 L8.5862,10.2982 L7.0592,11.8242 C6.6692,12.2142 6.6692,12.8472 7.0592,13.2382 C7.2542,13.4332 7.5102,13.5312 7.7662,13.5312 C8.0222,13.5312 8.2782,13.4332 8.4732,13.2382 L10.0002,11.7122 L11.5262,13.2382 C11.7212,13.4332 11.9772,13.5312 12.2332,13.5312 C12.4892,13.5312 12.7452,13.4332 12.9402,13.2382 C13.3312,12.8472 13.3312,12.2142 12.9402,11.8242 L11.4142,10.2982 L12.9402,8.7722 C13.3312,8.3822 13.3312,7.7492 12.9402,7.3582" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-KYC-Driver's-Licence" transform="translate(-819.000000, -431.000000)">
+            <g id="UI-/-Icons-/-24-Delete" transform="translate(813.000000, 424.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#fff" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

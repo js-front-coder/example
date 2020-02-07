@@ -1,0 +1,134 @@
+.verificationStepsTitle {
+  color: #1d2531;
+  font-size: 48px;
+  line-height: 66px;
+  margin-bottom: 32px;
+}
+
+.verificationStepsText {
+  color: #1d2531;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  line-height: 27px;
+  margin-bottom: 50px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.verificationStepsWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verificationStepCircle {
+  height: 64px;
+  width: 64px;
+  border: 2px solid #4c6180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #4c6180;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.24px;
+  line-height: 43px;
+  position: relative;
+  background-color: #f2f5f7;
+}
+
+.verificationStepDivider {
+  height: 2px;
+  width: 325px;
+  background-color: #4c6180;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.verificationStepWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.verificationStepActive {
+  .verificationStepCircle {
+    position: relative;
+    border: 2px solid #3878ff;
+    color: #3878ff;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: transparent;
+      opacity: 0.3;
+      border: 6px solid #3878ff;
+      border-radius: 50%;
+      top: -6px;
+    }
+  }
+  .verificationStepDivider {
+    background-color: #3878ff;
+  }
+}
+
+.verificationStepDescription {
+  margin-top: 15px;
+  text-align: center;
+  color: #1d2531;
+  font-size: 16px;
+  letter-spacing: 0.29px;
+  line-height: 20px;
+}
+
+.verificationSteps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  width: 910px;
+}
+
+.verificationStep {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 15%;
+}
+
+@media (max-width: 992px) {
+  .verificationSteps {
+    width: 100%;
+  }
+  .verificationStepDivider {
+    width: calc((100vw - 140px) / 3.5);
+  }
+  .verificationStep {
+    width: 33%;
+  }
+}
+@media (max-width: 768px) {
+  .verificationStepDivider {
+    width: calc((100vw - 30px) / 3);
+  }
+}
+@media (max-width: 576px) {
+  .verificationStepCircle {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+  .verificationStepDivider {
+    top: 18px;
+  }
+  .verificationStepDescription {
+    font-size: 12px;
+  }
+}

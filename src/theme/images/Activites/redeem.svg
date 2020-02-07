@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>F6C46886-9756-46B3-A460-EEB8DED75D9F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,20 L24,20 L24,12 L8,12 L8,20 Z M24,10 C25.1,10 26,10.9 26,12 L26,20 C26,21.1 25.1,22 24,22 L8,22 C6.9,22 6,21.1 6,20 L6,12 C6,10.9 6.9,10 8,10 L24,10 Z M16,15 C15.45,15 15,15.45 15,16 C15,16.55 15.45,17 16,17 C16.55,17 17,16.55 17,16 C17,15.45 16.55,15 16,15 Z M16,19 C14.34,19 13,17.66 13,16 C13,14.34 14.34,13 16,13 C17.66,13 19,14.34 19,16 C19,17.66 17.66,19 16,19 Z M22,7 C22.553,7 23,7.448 23,8 C23,8.552 22.553,9 22,9 L9,9 L13,5 L13,7 L22,7 Z M10,25 C9.447,25 9,24.552 9,24 C9,23.448 9.447,23 10,23 L23,23 L19,27 L19,25 L10,25 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.-Activity-+-Show-details" transform="translate(-182.000000, -394.000000)">
+            <g id="UI/Icons/32-send" transform="translate(176.000000, 389.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#1D2531" xlink:href="#path-1"></use>
+                <rect id="Rectangle-Copy" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(16.000000, 16.000000) scale(-1, -1) translate(-16.000000, -16.000000) " x="0" y="0" width="32" height="32"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

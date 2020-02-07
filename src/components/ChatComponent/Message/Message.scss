@@ -1,0 +1,17 @@
+.message--active {
+  animation-duration: 1.5s;
+  animation-name: blink-m;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink-m {
+  0% {
+    background-color: rgba(58, 135, 247, 0.5);
+  }
+  50% {
+    background-color: rgba(58, 135, 247, 0.1);
+  }
+  100% {
+    background-color: rgba(58, 135, 247, 0.5);
+  }
+}

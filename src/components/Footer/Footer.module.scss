@@ -1,0 +1,97 @@
+@media (any-hover: hover) {
+  .footerMenuLink {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .footerDev {
+    &:hover {
+      span {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 48px;
+  background-color: #c9d2df;
+  align-items: center;
+}
+
+.footerCopyright {
+  color: #1d2531;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+
+.footerDev {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1d2531;
+  &:active {
+    span {
+      opacity: 0.6;
+    }
+  }
+}
+.footerMenuLink {
+  color: #1d2531;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-right: 32px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+.footerMenuList {
+  display: flex;
+}
+.footerMenuListBox {
+  margin-right: 32px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerWrapper {
+    padding: 15px;
+  }
+  .footerMenuLink {
+    margin-right: 20px;
+  }
+  .footerMenuListBox {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footerWrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footerMenu {
+    margin-bottom: 15px;
+    order: 3;
+  }
+  .footerMenuListBox {
+    margin-right: 15px;
+    display: flex;
+  }
+  .footerMenuLink {
+    margin-right: 15px;
+    text-align: center;
+  }
+  .footerCopyright {
+    order: 2;
+  }
+}

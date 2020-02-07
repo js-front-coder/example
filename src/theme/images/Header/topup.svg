@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="14px" viewBox="0 0 23 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>98C35917-02F2-46D0-8181-F8EC31BBCC74</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M19.6279,5 C21.6989,5 23.3849,6.686 23.3849,8.757 L23.3849,15.243 C23.3849,17.314 21.6989,19 19.6279,19 L4.7569,19 C2.6859,19 0.9999,17.314 0.9999,15.243 L0.9999,8.757 C0.9999,6.686 2.6859,5 4.7569,5 L19.6279,5 Z M19.6279,7 L4.7569,7 C3.7859,7 2.9999,7.787 2.9999,8.757 L2.9999,15.243 C2.9999,16.213 3.7859,17 4.7569,17 L19.6279,17 C20.5989,17 21.3849,16.213 21.3849,15.243 L21.3849,8.757 C21.3849,7.787 20.5989,7 19.6279,7 Z M12.1924,8 C14.3974,8 16.1924,9.794 16.1924,12 C16.1924,14.206 14.3974,16 12.1924,16 C9.9874,16 8.1924,14.206 8.1924,12 C8.1924,9.794 9.9874,8 12.1924,8 Z M12.1924,10 C11.0884,10 10.1924,10.896 10.1924,12 C10.1924,13.104 11.0884,14 12.1924,14 C13.2964,14 14.1924,13.104 14.1924,12 C14.1924,10.896 13.2964,10 12.1924,10 Z" id="path-4"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1.-Verify-Profile" transform="translate(-843.000000, -41.000000)">
+            <g id="Group-3" transform="translate(633.000000, 36.000000)">
+                <g id="Reddem" transform="translate(209.000000, 0.000400)">
+                    <g id="UI/Icons/24-users" transform="translate(0.000000, -0.000100)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

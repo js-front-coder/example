@@ -1,0 +1,72 @@
+@import '../../../../theme/palette';
+
+@media (any-hover: hover) {
+  .itemLink {
+    &:hover {
+      background-color: $btn-blue-hover;
+      border-color: $btn-blue-hover;
+    }
+  }
+  .activeLink {
+    &:hover {
+      background-color: $blue;
+      border-color: $blue;
+    }
+  }
+}
+.wrapperNavigation {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.itemLink {
+  font-size: 14px;
+  line-height: 19px;
+  color: $dark-grey;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1.35px;
+  text-transform: uppercase;
+  border: 1px solid #cfd7e3;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  &:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  &:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+  &:active {
+    background-color: $btn-blue-active;
+    border-color: $btn-blue-active;
+  }
+}
+
+.activeLink {
+  border: 1px solid $blue;
+  color: $white;
+  background-color: $blue;
+  &:active {
+    background-color: $blue;
+    border-color: $blue;
+  }
+}
+@media (max-width: 576px) {
+  .wrapperNavigation {
+    display: flex;
+  }
+  .itemLink {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .itemLink {
+    //font-size: 10px;
+    //line-height: 13px;
+    padding: 9px;
+  }
+}

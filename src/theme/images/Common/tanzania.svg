@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="16px" viewBox="0 0 27 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>F3C9838C-3D02-4789-A701-C4684DF21A7E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="232" y="74" width="27" height="16" rx="2"></rect>
+    </defs>
+    <g id="ExportIcons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-232.000000, -74.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+            <g id="Group-10" mask="url(#mask-2)">
+                <g transform="translate(232.000000, 74.000000)">
+                    <polygon id="Fill-1" fill="#42A04B" points="0 -0.0002 0 12.1478 20.582 -0.0002"></polygon>
+                    <polygon id="Fill-2" fill="#4694D2" points="6.4179 16 26.9999 16 26.9999 3.846"></polygon>
+                    <polygon id="Fill-5" fill="#EAC126" points="20.5821 -0.0002 0.0001 12.1478 0.0001 13.3808 22.6381 -0.0002"></polygon>
+                    <polygon id="Fill-8" fill="#EAC126" points="4.3614 16 6.4184 16 27.0004 3.846 27.0004 2.613"></polygon>
+                    <polygon id="Fill-9" fill="#000000" points="22.6386 -0.0002 -0.0004 13.3808 -0.0004 15.9788 0.0106 15.9888 0.0156 15.9998 4.3616 15.9998 26.9996 2.6138 26.9996 0.0158 26.9896 0.0048 26.9846 -0.0002"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

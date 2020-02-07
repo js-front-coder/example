@@ -1,0 +1,370 @@
+@import "../../theme/palette";
+
+@media (any-hover: hover) {
+  .wrapperSocialNetworks {
+    .buttonNetwork {
+      &:hover {
+        background-color: #d6deea;
+      }
+    }
+  }
+  .changeButton {
+    &:hover {
+      background-color: $btn-blue-hover;
+    }
+  }
+  .button {
+    &:hover {
+      background-color: $btn-blue-hover;
+    }
+  }
+  .verificationButton {
+    &:hover {
+      background-color: #d6deea;
+    }
+  }
+  .avatar {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperSettings {
+  position: relative;
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+.wrapperPhoto {
+  position: relative;
+  margin-bottom: 29px;
+}
+.businessBorder {
+  img {
+    border: 3px solid #3878ff;
+  }
+}
+.leftSettings {
+  position: relative;
+}
+.invalidInput {
+  border-color: $red !important;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+  border-radius: 50%;
+  &:active {
+    opacity: 0.6;
+  }
+}
+.info {
+  margin-bottom: 5px;
+}
+
+.wrapperForm {
+  width: 368px;
+  margin: 0 35px;
+}
+
+.wrapperLable {
+  position: relative;
+}
+
+.label {
+  color: $dark-grey;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  text-align: justify;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input {
+  position: relative;
+  height: 40px;
+  width: 368px;
+  padding: 0 12px;
+  border-radius: 4px;
+  border: 1px solid #cfd7e3;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  font-size: 18px;
+  letter-spacing: 0.32px;
+  line-height: 20px;
+
+  &::placeholder {
+    color: #cfd7e3;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+  }
+  &:focus {
+    border-color: #03b2cb;
+  }
+}
+
+.country {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.wrapperButtons {
+  text-align: center;
+}
+
+.button {
+  color: $white;
+  height: 40px;
+  border: none;
+  width: 176px;
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  letter-spacing: 1.35px;
+  background-color: $blue;
+  text-transform: uppercase;
+  font-weight: 800;
+  &:active {
+    background-color: $btn-blue-active;
+  }
+}
+
+.wrapperTypeAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  width: 137px;
+  border-radius: 19.75px;
+  background-color: $blue;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  margin-bottom: 24px;
+}
+
+.titleInfo {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
+.underLine {
+  height: 4px;
+  width: 44px;
+  transform: scaleX(-1);
+  border-radius: 11px;
+  background-color: #dfe7ec;
+  margin-bottom: 24px;
+}
+
+.limitsPoint {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  flex-direction: column;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.boxLabel {
+  margin-bottom: 8px;
+}
+.inputGroup {
+  position: relative;
+}
+.inputBtn {
+  margin-bottom: 0;
+}
+.changeButton {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6px;
+  height: 28px;
+  width: 90px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 10px;
+  letter-spacing: 0.96px;
+  line-height: 28px;
+  border-radius: 2px;
+  background-color: $blue;
+  position: absolute;
+  &:active {
+    background-color: $btn-blue-active;
+  }
+}
+
+.verificationButton {
+  top: 225px;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../theme/images/General/arrow.svg");
+  &:active {
+    background-color: rgba(214, 222, 234, 0.6);
+  }
+}
+
+.verified {
+  width: 32px;
+  height: 32px;
+  top: 85px;
+  right: 0;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #57ffd0;
+  background-image: url("../../theme/images/Verification/AccountVerification/Selfie/check-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.error {
+  color: #eb2010;
+}
+
+.success {
+  color: #00cc93;
+}
+
+.wrapperSocialNetworks {
+  margin-top: 25px;
+
+  .socialHeader {
+    font-weight: 700;
+    font-size: 14px;
+    min-width: 200px;
+  }
+
+  .wrapperButtons {
+    display: flex;
+    margin-top: 8%;
+  }
+
+  .buttonNetwork {
+    height: 32px;
+    width: 48px;
+    border: 1px solid #cfd7e3;
+    border-radius: 4px;
+    margin: 0 8px 0 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $white;
+    &:active {
+      background-color: rgba(214, 222, 234, 0.6);
+    }
+  }
+
+  .google {
+    background-image: url("../../theme/images/Login/google.svg");
+  }
+
+  .facebook {
+    background-image: url("../../theme/images/Login/facebook.svg");
+  }
+
+  .twitter {
+    background-image: url("../../theme/images/Login/twitter.svg");
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapperForm {
+    margin-right: 60px;
+  }
+  .input {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .verificationButton {
+    top: 0;
+  }
+  .wrapperSettings {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .wrapperPhoto {
+    margin-bottom: 15px;
+  }
+  .leftSettings {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .wrapperForm {
+    margin: 0;
+  }
+  .leftSettings {
+    width: 368px;
+    justify-content: space-between;
+  }
+  .info {
+    flex-direction: row;
+    margin-right: 15px;
+    min-width: 102px;
+    margin-bottom: 0;
+  }
+  .avatar {
+    margin: 0 auto;
+    display: block;
+  }
+  .wrapperInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .limitsPoint {
+    flex-direction: row;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+  .wrapperTypeAccount {
+    margin-bottom: 15px;
+  }
+  .titleInfo {
+    margin-bottom: 10px;
+  }
+  .wrapperButtons {
+    justify-content: center;
+  }
+  .wrapperSocialNetworks {
+    margin-top: 0;
+    .wrapperButtons {
+      margin-top: 15px;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .leftSettings {
+    width: 100%;
+  }
+  .wrapperForm {
+    width: 100%;
+  }
+}

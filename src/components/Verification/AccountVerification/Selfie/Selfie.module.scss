@@ -1,0 +1,305 @@
+@media (any-hover: hover) {
+  .selfieLabelInner {
+    &:hover {
+      background-color: #bbc0c8;
+    }
+  }
+  .selfieUploadedCancel {
+    &:hover {
+      background: #34b07c;
+    }
+  }
+  .prevButton {
+    &:hover {
+      background-color: #d6deea;
+    }
+  }
+}
+.selfieViewWrapper {
+  position: relative;
+  width: 712px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+  margin: 0 auto;
+  padding: 32px 32px 24px 32px;
+  margin-top: 13px;
+}
+
+.selfieTitle {
+  color: #1d2531;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.selfieText {
+  color: #1d2531;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+.selfieTopContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.selfieDescription {
+  width: 50%;
+}
+.selfieImageWrapper {
+  position: relative;
+  top: -14px;
+  width: 37.7%;
+  img {
+    width: 100%;
+  }
+}
+.selfieListItem {
+  color: #1d2531;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  max-width: 285px;
+  &:nth-child(3) {
+    &:before {
+      top: 11px;
+    }
+  }
+  &:before {
+    content: url("../../../../theme/images/Verification/AccountVerification/Selfie/check.svg");
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+}
+
+.selfieAddPhotoContainer {
+  position: relative;
+  height: 355px;
+  width: 100%;
+  border: 1px dashed #4c6180;
+  border-radius: 4px;
+}
+
+.selfiePictureInput {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+
+.selfieAddText {
+  color: #4c6180;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.09px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.selfieUploadText {
+  color: #4c6180;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.08px;
+  line-height: 14px;
+}
+
+.selfieLabelInner {
+  background-color: #dfe4ec;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:active {
+    background-color: #cacfd7;
+  }
+}
+
+.selfieLabelImage {
+  background-color: #b9c5d7;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selfieSubmitBtn {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.selfieImageTypes {
+  height: calc(100% - 60px);
+  color: #4c6180;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selfieUploadedContainer {
+  position: relative;
+  height: 355px;
+  width: 100%;
+  border: 1px solid #30d4a0;
+  border-radius: 4px;
+  background-color: #50617d;
+}
+.selfieUploadedCheck {
+  height: 32px;
+  width: 32px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  img {
+    position: relative;
+    left: 1px;
+  }
+}
+.selfieUploadedText {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.09px;
+  line-height: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+.selfieUploadedHeader {
+  position: relative;
+  background: #30d4a0;
+  padding: 14px 0;
+}
+.selfieUploadedUnit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selfieUploadedCancel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  background: #68d0a3;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:active {
+    background: rgba(52, 176, 124, 0.67);
+  }
+}
+
+
+.wrapperSecondStep {
+  position: relative;
+}
+
+.prevButton {
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../../../theme/images/General/arrow.svg");
+  &:active {
+    background-color: rgba(214, 222, 234, 0.6);
+  }
+}
+.uploadedBoxImg {
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .prevButton {
+    top: -223px;
+  }
+}
+@media (max-width: 768px) {
+  .selfieViewWrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .selfieViewWrapper {
+    padding: 32px 15px 24px;
+    margin-top: 0;
+  }
+  .selfieTopContainer {
+    flex-direction: column;
+  }
+  .selfieImageWrapper {
+    top: 0;
+    width: 300px;
+    align-self: center;
+  }
+  .selfieDescription {
+    width: 100%;
+  }
+  .selfieList {
+    margin-bottom: 15px;
+  }
+  .selfieAddPhotoContainer {
+    height: 270px;
+  }
+  .selfieUploadedContainer {
+    height: 270px;
+  }
+  .selfieUploadedTemplateImage {
+    width: 289px;
+  }
+  .prevButton {
+    top: -179px;
+  }
+}
+@media (max-width: 420px) {
+  .uploadedBoxImg {
+    padding: 25px;
+  }
+  .selfieUploadedContainer {
+    height: auto;
+  }
+  .selfieUploadedTemplateImage {
+    width: 100%;
+  }
+  .selfieImageWrapper {
+    width: 100%;
+  }
+  .prevButton {
+    width: 30px;
+    height: 30px;
+    top: -165px;
+    background-size: 40%;
+  }
+}

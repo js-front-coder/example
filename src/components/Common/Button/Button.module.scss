@@ -1,0 +1,53 @@
+@import '../../../theme/palette';
+
+@media (any-hover: hover) {
+  .blue {
+    &:hover {
+      background-color: $btn-blue-hover;
+    }
+  }
+  .red {
+    &:hover {
+      background-color: $btn-red-hover;
+    }
+  }
+}
+.button {
+  outline: 0;
+  height: 40px;
+  width: 176px;
+  border: none;
+  color: $white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 1.35px;
+  padding: 0;
+
+  text-transform: uppercase;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+
+  &[disabled]{
+    background-color: $light-grey;
+
+    &:hover {
+      background-color: $light-grey;
+    }
+  }
+}
+.blue {
+  background-color: $blue;
+  &:active {
+    background-color: $btn-blue-active;
+  }
+}
+
+.red {
+  background-color: $red;
+  &:active {
+    background-color: $btn-red-active;
+  }
+}

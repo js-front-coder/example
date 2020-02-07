@@ -1,0 +1,128 @@
+.contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-height: 56px;
+  font-family: "Nunito", sans-serif;
+  padding: 0 24px;
+
+  &--active {
+    background: #f2f5f7 !important;
+  }
+
+  &:hover {
+    background: #f8fbfd;
+  }
+
+  &__avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../../theme/images/Chat/contact_test_img.png');
+
+
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      background: white;
+
+    }
+  }
+
+  &__personalAvatar {
+    border: 1px solid #CFD7E3;
+  }
+
+  &__businessAvatar {
+    border: 2px solid #3878ff;
+  }
+
+  &__main {
+    position: relative;
+    padding: 0 34px 0 12px;
+    width: calc(100% - 40px);
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    & > *{
+      width: 100%;
+    }
+  }
+  &__name {
+    color: #1D2531;
+    font-weight: 700;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 16px;
+  }
+  &__status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 2px solid white;
+
+    &--online {
+      background-color: #00cc93;
+    }
+    &--bussy {
+      background-color: orange;
+    }
+    &--offline {
+      background-color: #BFC9D9;
+    }
+  }
+  &__lastMsg {
+    color: #4C6180;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+  }
+  &__lastMsgDate {
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    color: #CFD7E3;
+  }
+  &__newMessages {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    background: #3878FF;
+    color: white;
+    width: 24px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+  }
+}

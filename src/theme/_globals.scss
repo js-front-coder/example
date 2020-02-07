@@ -1,0 +1,52 @@
+@import "./palette";
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+  color: $dark-grey;
+  font-family: "Nunito", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: none;
+}
+button {
+  padding: 0;
+}
+.no-scroll {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+#chat-widget-container {
+  z-index: 98 !important;
+}
+@media (max-width: 992px) {
+  #chat-widget-container {
+    bottom: 50px !important;
+    right: 50px !important;
+  }
+}
+@media (max-width: 576px) {
+  #chat-widget-container {
+    bottom: 0 !important;
+    right: 0 !important;
+    max-height: calc(100% - 64px) !important;
+  }
+}

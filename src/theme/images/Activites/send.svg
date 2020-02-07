@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>01D2E83B-0387-447E-B7F0-868D3B73D9DC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10,14.852 L10,8.227 L25.553,15.852 L10,23.477 L10,16.852 L16,16.852 C16.552,16.852 17,16.404 17,15.852 C17,15.3 16.552,14.852 16,14.852 L10,14.852 Z M9.635,6 C8.776,6 8,6.704 8,7.667 L8,24.031 C8,24.996 8.777,25.701 9.638,25.701 C9.874,25.701 10.115,25.648 10.349,25.534 L27.062,17.339 C28.312,16.727 28.312,14.977 27.062,14.364 L10.343,6.167 C10.11,6.053 9.87,6 9.635,6 L9.635,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.-Activity-+-Show-details" transform="translate(-184.000000, -843.000000)">
+            <g id="UI/Icons/32-send-Copy-3" transform="translate(176.000000, 837.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill-1" fill="#000000" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="32" height="32"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

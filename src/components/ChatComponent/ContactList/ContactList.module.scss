@@ -1,0 +1,74 @@
+.contactList {
+  background: transparent;
+
+  &::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0.6em #f2f5f7;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #90A5C2;
+    outline: 1px solid transparent;
+    border-radius: 0.3em;
+  }
+
+  &__contacts {
+
+  }
+
+  &__messages {
+
+  }
+
+  &__title {
+    padding: 0 20px;
+    font-size: 16px;
+    color: gray;
+    margin: 10px 0;
+  }
+
+  &__item {
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .emptyContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img {
+      margin-bottom: 24px;
+    }
+    &__title {
+      color: #1D2531;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 28px;
+    }
+    &__text {
+      color: #909DAE;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    &__button {
+      background: #3878FF;
+      min-width: 144px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      color: white;
+      border: none;
+      font-size: 12px;
+      border-radius: 5px;
+      margin-top: 24px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Nunito";
+  font-weight: 400;
+  src: local("Nunito-Regular"),
+    url("./Nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 600;
+  src: local("Nunito-SemiBold"),
+    url("./Nunito/Nunito-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 700;
+  src: local("Nunito-Bold"), url("./Nunito/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 800;
+  src: local("Nunito-ExtraBold"),
+    url("./Nunito/Nunito-ExtraBold.ttf") format("truetype");
+}

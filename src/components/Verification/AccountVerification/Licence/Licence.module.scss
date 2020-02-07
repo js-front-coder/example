@@ -1,0 +1,210 @@
+@media (any-hover: hover) {
+  .uploadedCancel {
+    &:hover {
+      background: #34b07c;
+    }
+  }
+  .labelInner {
+    &:hover {
+      background-color: #bbc0c8;
+    }
+  }
+  .prevButton {
+    &:hover {
+      background-color: #d6deea;
+    }
+  }
+}
+.wrapperLicence {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  position: relative;
+}
+.addPhotoContainer {
+  position: relative;
+  height: 276px;
+  width: 337px;
+  border: 1px dashed #4c6180;
+  border-radius: 4px;
+}
+
+.pictureInput {
+  display: none;
+}
+
+.addText {
+  color: #4c6180;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.09px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.uploadText {
+  color: #4c6180;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.08px;
+  line-height: 14px;
+}
+
+.labelInner {
+  background-color: #dfe4ec;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:active {
+    background-color: #cacfd7;
+  }
+}
+
+.labelImage {
+  background-color: #b9c5d7;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageTypes {
+  text-align: center;
+  padding: 25px;
+  img {
+    width: 100%;
+  }
+}
+
+.submitBtn {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.uploadedContainer {
+  position: relative;
+  height: 276px;
+  width: 337px;
+  border: 1px solid #30d4a0;
+  border-radius: 4px;
+  background-color: #50617d;
+}
+
+.uploadedCheck {
+  height: 32px;
+  width: 32px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  img {
+    position: relative;
+    left: 1px;
+  }
+}
+.uploadedText {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.09px;
+  line-height: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+.uploadedHeader {
+  position: relative;
+  background: #74e2c0;
+  padding: 14px 0;
+}
+.uploadedUnit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadedCancel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  background: #31d4a0;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:active {
+    background: rgba(52, 176, 124, 0.67);
+  }
+}
+
+.uploadedBoxImg {
+  padding: 25px;
+}
+
+.uploadedTemplateImage {
+  width: 100%;
+}
+
+.prevButton {
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../../../theme/images/General/arrow.svg");
+  &:active {
+    background-color: rgba(214, 222, 234, 0.6);
+  }
+}
+
+@media (max-width: 992px) {
+  .prevButton {
+    top: -275px;
+  }
+}
+
+@media (max-width: 576px) {
+  .addPhotoContainer {
+    max-width: 336px;
+    height: auto;
+    width: 100%;
+  }
+  .uploadedContainer {
+    max-width: 336px;
+    height: auto;
+    width: 100%;
+  }
+  .prevButton {
+    top: -239px;
+  }
+}
+
+@media (max-width: 500px) {
+  .prevButton {
+    top: -254px;
+  }
+}
+@media (max-width: 420px) {
+  .prevButton {
+    width: 30px;
+    height: 30px;
+    top: -239px;
+    background-size: 40%;
+  }
+}

@@ -1,0 +1,54 @@
+@media (any-hover: hover) {
+  .close {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperModal {
+  width: 484px;
+  border-radius: 8px;
+  position: relative;
+  padding: 40px 32px 24px;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 31px;
+  border-bottom: 2px solid #cfd7e3;
+}
+
+.wrapperNumber {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #cfd7e3;
+}
+
+.wrapperButton {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.close {
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+@media (max-width: 576px) {
+  .wrapperModal {
+    width: 100%;
+    padding: 40px 15px 24px 15px;
+  }
+}

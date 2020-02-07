@@ -1,0 +1,71 @@
+@media (any-hover: hover) {
+  .close {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+.wrapperModal {
+  background-color: #fff;
+  padding: 30px 40px 30px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.wrapperImage {
+  text-align: center;
+  position: relative;
+}
+
+.wrapperButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button{
+    &:last-of-type {
+      margin-top: 20px;
+    }
+  }
+}
+
+.fileTooLarge {
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
+  color: red;
+}
+
+.close {
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapperModal {
+    padding: 40px 15px;
+    canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  .wrapperButtons {
+    flex-direction: column-reverse;
+  }
+}
+
+//@media(max-width: 450px) {
+//  .wrapperButtons {
+//    button {
+//      //width: 100%;
+//    }
+//  }
+//}

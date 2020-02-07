@@ -1,0 +1,199 @@
+@media (any-hover: hover) {
+  .prevButton {
+    &:hover {
+      background-color: #d6deea;
+    }
+  }
+}
+.statusBlueTheme {
+  width: 590px;
+  border: 1px solid #3878ff;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+  margin: 0 auto;
+}
+.statusUploadedBlueHeader {
+  position: relative;
+  background: #3878ff;
+  padding: 14px 0;
+}
+.statusOrangeTheme {
+  width: 590px;
+  border: 1px solid #ffd338;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+  margin: 0 auto;
+}
+.statusUploadedOrangeHeader {
+  position: relative;
+  background: #ffd338;
+  padding: 14px 0;
+}
+.statusUploadedCheck {
+  height: 32px;
+  width: 32px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  img {
+    position: relative;
+    left: 1px;
+  }
+}
+.statusUploadedText {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.09px;
+  line-height: 14px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.statusUploadedUnit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusUploadedCancel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+}
+
+.statusUploadedTemplateImage {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.statusContent {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.statusContentImage {
+  width: 100px;
+  margin-right: 24px;
+  flex-shrink: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.statusInfo {
+  p {
+    color: #1d2531;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+  }
+}
+
+.statusList {
+  margin-left: 11px;
+  margin-top: -5px;
+}
+
+.statusListItem {
+  position: relative;
+  color: #1d2531;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+  &::before {
+    content: url("../../../../theme/images/Verification/AccountVerification/Status/listType.svg");
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -19px;
+    height: 22px;
+  }
+}
+
+.wrapperReject {
+  position: relative;
+}
+.prevButton {
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../../../theme/images/General/arrow.svg");
+  &:active {
+    background-color: rgba(214, 222, 234, 0.6);
+  }
+}
+
+.message {
+  padding-left: 12px;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+
+.wrapperAgainButton {
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .prevButton {
+    top: -211px;
+  }
+}
+@media (max-width: 650px) {
+  .statusBlueTheme {
+    width: 100%;
+  }
+  .statusOrangeTheme {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .prevButton {
+    top: -179px;
+  }
+  .statusBlueTheme{
+    .statusContent {
+      padding: 32px 15px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .statusContentImage {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .statusInfo {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .prevButton {
+    width: 30px;
+    height: 30px;
+    top: -165px;
+    background-size: 40%;
+  }
+}

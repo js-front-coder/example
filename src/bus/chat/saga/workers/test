@@ -1,0 +1,181 @@
+import { once } from ‘lodash’
+let counter = 0
+const calculateHardStuff = (arg) => {
+  counter++
+  return arg
+}
+const calculateHardStuffOnce = once(calculateHardStuff)
+const result = calculateHardStuffOnce('arg1')
+const result2 = calculateHardStuffOnce('arg2')
+console.log(result) //'arg1'
+console.log(counter) // 1
+console.log(result2) //'arg1'
+
+/////////////////////////////////////////////////////
+
+import { once } from ‘lodash’
+let counter = 0
+const calculateHardStuff = (arg) => {
+  counter++
+  return arg
+}
+const calculateHardStuffOnce = once(calculateHardStuff)
+const result = once(calculateHardStuff);
+result('arg1');
+const result2 = once(result);
+result2('arg2');
+
+
+......................................................
+My name is Illia, I am FE Team lead here in WePlay. And I sincerely hope u will enjoy questions. Good luck! There is no some special things to force u to make a mistake. Just to check ur knowledge of JS basics. Questions 1,2,3 - just say what will be the console`s output.
+Please provide small explanation to each answer.
+Tasks about data types
+
+
+console.log([] == [])
+console.log([] === [])
+console.log(0 === '0')
+console.log(0 == '0')
+if(false || 'false' ) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+
+if(NaN && null) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+if([] || {}) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+const obj = {firstName: ‘Illia’}
+const firstName = ‘Illia’
+delete obj[firstName]
+console.log(obj)
+delete obj.firstName
+console.log(obj)
+
+
+
+Tasks about context
+
+
+function doSmth() {
+  console.log(this)
+}
+doSmth()
+const obj = {
+  doSmth() {
+    console.log(this)
+  }
+}
+obj.doSmth()
+
+
+
+
+
+
+
+
+
+
+
+
+const obj = {
+  doSmth() {
+    console.log(this)
+  }
+}
+const doSmthElse = obj.doSmth
+doSmthElse()
+
+const obj = {
+  doSmth() {
+    console.log(this)
+  }
+}
+const doSmthElse = obj.doSmth.bind(this)
+doSmthElse()
+const User = function() {
+  console.log(this)
+}
+const user = new User()
+
+
+Tasks about scopes and closures (please if any JS errors will be thrown, name them, but continue task)
+
+
+function doSmth() {
+  console.log(_var, _let)
+  if (true) {
+    console.log(_var, _let)
+    var _var = 'var value'
+    let _let = 'let value'
+    console.log(_var, _let)
+  }
+  console.log(_var, _let)
+}
+doSmth()
+console.log(doSmth)
+function doSmth(param) {}
+console.log(doSmth)
+
+
+console.log(doSmth)
+var doSmth = function (param) {}
+   console.log(doSmth)
+function doSmth() {
+  var counter = 0
+  return function() {
+    return ++counter
+  }
+}
+const a = doSmth()
+const b = doSmth()
+a()
+a()
+console.log('a()', a())
+console.log('b()', b())
+
+React-Redux questions (open questions, 2-3 sentences max)
+Name all reasons why component may rerender.
+
+
+
+What is the difference between React.Component and React.PureComponent?
+
+
+
+How jsx works in browser?
+
+
+
+Did u work with reselect, recompose, react context, react hooks, react portals, ramda, redux-actions, NextJS any SSR framework, WebSockets?
+
+
+
+What is context in react and why do we need it?
+
+
+
+Name all parts of Flux(Redux) architecture and how they work together?
+Write your implementation of _.once function (https://lodash.com/docs/#once)
+Creates a function that is restricted to invoking func once. Repeat calls to the function return the value of the first invocation. The func is invoked with this binding and arguments of the created function.
+
+import { once } from ‘lodash’
+let counter = 0
+const calculateHardStuff = (arg) => {
+  counter++
+  return arg
+}
+const calculateHardStuffOnce = once(calculateHardStuff)
+const result = calculateHardStuffOnce('arg1')
+const result2 = calculateHardStuffOnce('arg2')
+console.log(result) //'arg1'
+console.log(counter) // 1
+console.log(result2) //'arg1'

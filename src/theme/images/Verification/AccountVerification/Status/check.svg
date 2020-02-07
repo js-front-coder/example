@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="10" viewBox="0 0 13 10">
+  <defs>
+    <path id="24-upload-a" d="M9.9139,14.7427 L16.3639,8.2927 C16.7549,7.9027 17.3879,7.9027 17.7779,8.2927 C18.1689,8.6827 18.1689,9.3167 17.7779,9.7077 L10.7069,16.7777 C10.4899,16.9957 10.1979,17.0677 9.9139,17.0677 C9.6299,17.0677 9.3389,16.9957 9.1209,16.7777 L6.2929,13.9497 C5.9019,13.5587 5.9019,12.9267 6.2929,12.5357 C6.6839,12.1447 7.3159,12.1447 7.7069,12.5357 L9.9139,14.7427 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-6 -8)">
+    <mask id="24-upload-b" fill="#fff">
+      <use xlink:href="#24-upload-a"/>
+    </mask>
+    <use fill="#000" xlink:href="#24-upload-a"/>
+    <rect width="24" height="24" fill="#3878FF" mask="url(#24-upload-b)"/>
+  </g>
+</svg>

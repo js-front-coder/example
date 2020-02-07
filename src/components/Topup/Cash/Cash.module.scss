@@ -1,0 +1,340 @@
+@import "../../../theme/palette";
+
+@media (any-hover: hover) {
+  .listItem {
+    &__goto {
+      &:hover {
+        background-color: $btn-blue-hover;
+      }
+    }
+  }
+  .geoLocate {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+.mainWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.innerWrapper {
+  border-radius: 8px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px 30px 20px 20px;
+  display: flex;
+  width: 100%;
+}
+
+.listWrapper {
+  position: relative;
+  width: 356px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+.map {
+  width: calc(100% - 376px) !important;
+  height: 518px !important;
+  flex-grow: 1;
+  flex-shrink: 0;
+  z-index: 10;
+}
+.listInner {
+  overflow: auto;
+  padding: 0 10px 10px 10px;
+  height: 440px;
+  transition: 0.5s ease all;
+  border-top: 2px solid #dde1e3a8;
+  border-radius: 2px;
+  border-bottom: 2px solid #dde1e3a8;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(170, 179, 186, 0.4);
+  }
+}
+.goBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid rgba(170, 179, 186, 0.4);
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  cursor: pointer;
+
+  &:hover {
+    background: #dadcdf;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    transform: rotate(45deg);
+    background: black;
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    transform: rotate(-45deg);
+    background: black;
+  }
+}
+.hours {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  line-height: 12px;
+  align-items: center;
+
+  &__day {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 24px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border: 1px solid #4C6180;
+    border-radius: 3px;
+    background: rgba(76, 97, 128, 0.20);
+    margin: 0 2px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(76, 97, 128, 0.60);
+      color: white;
+    }
+  }
+
+  &__item {
+    text-transform: capitalize;
+
+    &:after{
+      content: ',';
+    }
+
+    &:last-child {
+      &:after{
+        content: '';
+      }
+    }
+  }
+}
+
+.listItem {
+  width: 336px;
+  min-height: 136px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px -1px rgba(76, 97, 128, 0.1),
+    0 6px 10px 0 rgba(76, 97, 128, 0.07), 0 1px 18px 0 rgba(76, 97, 128, 0.06);
+  padding: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  &--active {
+    background-color: #e9f1fb;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  &__top {
+    display: flex;
+    width: 100%;
+    min-height: 64px;
+    margin-bottom: 16px;
+    position: relative;
+    padding-right: 40px;
+  }
+  &__bottom {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-between;align-items: flex-end;
+  }
+  &__ava {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  &__goto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    svg {
+      fill: $white;
+      width: 14px;
+      height: 14px;
+    }
+    &:active {
+      background-color: $btn-blue-active;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    color: $dark-grey;
+  }
+  &__distance {
+    min-width: 57px;
+    height: 24px;
+    padding: 0 5px;
+    border-radius: 2px;
+    background-color: #cfd7e3;
+    color: $white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  &__placed {
+    max-width: 219px;
+    margin-right: 8px;
+    display: flex;
+    align-items: flex-start;
+    svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-right: 4px;
+      fill: #cfd7e3;
+    }
+    span {
+      font-size: 12px;
+      line-height: 16px;
+      color: $light-grey;
+    }
+  }
+  &__name {
+    margin-bottom: 10px;
+    line-height: 24px;
+    max-width: calc(100% - 35px);
+    /* padding-right: 24px; */
+    white-space: nowrap;
+    overflow: hidden;
+    /* word-wrap: normal; */
+    text-overflow: ellipsis;
+  }
+  &__hours {
+    display: flex;
+    svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      margin-right: 4px;
+      fill: #cfd7e3;
+    }
+    span {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}
+
+.geoLocate {
+  display: inline-flex;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 100;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .innerWrapper {
+    flex-direction: column;
+    padding: 20px 5px;
+  }
+  .listWrapper {
+    width: 100%;
+    margin-right: 0;
+    padding-top: 0;
+  }
+  .listItem {
+    width: 100%;
+  }
+  .map {
+    width: calc(100% - 20px) !important;
+    height: 350px !important;
+    margin: 0 auto !important;
+  }
+  .geoLocate {
+    top: -18px;
+    right: 7px;
+  }
+  .listInner {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  .listItem {
+    &__top {
+      padding-right: 30px;
+    }
+    &__goto {
+      width: 24px;
+      height: 24px;
+      svg {
+        width: 11px;
+        height: 11px;
+      }
+    }
+  }
+}

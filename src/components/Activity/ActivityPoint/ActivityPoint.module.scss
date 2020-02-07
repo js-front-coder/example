@@ -1,0 +1,187 @@
+@import "../../../theme/palette";
+
+@media (any-hover: hover) {
+  .eye {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .close {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperPoint {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 32px 415px 74px 130px 335px 45px;
+  grid-column-gap: 15px;
+  align-items: center;
+  background-color: $white;
+  padding: 11px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.redeem {
+  .redeemIcon {
+    background-color: #fb7fa0;
+  }
+  .info {
+    width: 100%;
+  }
+}
+
+.send {
+  .info {
+    width: 100%;
+  }
+  .sendIcon {
+    background-color: #6798fc;
+  }
+}
+
+.received {
+  .info {
+    width: 100%;
+  }
+  .sendIcon {
+    background-color: #33d6ff;
+  }
+}
+
+.simpleTopup {
+  .info {
+    width: 100%;
+  }
+  .simpleTopupIcon {
+    background-color: #00e6db;
+  }
+}
+
+.topup {
+  .info {
+    width: 100%;
+  }
+  .topupIcon {
+    background-color: #00e6db;
+  }
+
+  .emptyBalance {
+    color: #1d2531;
+  }
+}
+
+.wrapperIcon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+.wrapperEye {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    flex-shrink: 0;
+  }
+}
+.info {
+  letter-spacing: 0.44px;
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.time {
+  letter-spacing: 0.44px;
+}
+
+.balance {
+  width: 100%;
+}
+
+.eye {
+  padding: 4px;
+  cursor: pointer;
+  &:active {
+    opacity: 0.6;
+  }
+}
+.eyeActive {
+  background-color: rgb(232, 239, 255);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.wrapperStatus {
+  width: 100%;
+}
+
+.status {
+  padding: 4px 15px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 16px;
+}
+
+.pending {
+  background-color: #ffdc80;
+}
+
+.approved {
+  background-color: #47ffcb;
+  padding: 4px 11px;
+}
+
+.canceled {
+  background-color: #ff80a1;
+}
+
+.close {
+  cursor: pointer;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.balance {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.positiveBalance {
+  color: #00e6b8;
+}
+.negativeBalance {
+  color: #ff5783;
+}
+@media (max-width: 1300px) {
+  .wrapperPoint {
+    grid-template-columns: 32px 355px 74px 130px 195px 45px;
+  }
+}
+@media (max-width: 992px) {
+  .wrapperPoint {
+    grid-template-columns: 32px 200px 74px 115px 170px 45px;
+    font-size: 14px;
+    grid-column-gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .wrapperPoint {
+    width: 720px;
+  }
+}

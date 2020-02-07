@@ -1,0 +1,30 @@
+import { createActions } from 'redux-actions';
+
+export const chatActions = createActions({
+    TEST: void 0,
+    CHANNEL_ON: void 0,
+    CHANNEL_OFF: void 0,
+    SERVER_ON: void 0,
+    SERVER_OFF: void 0,
+    CHAT_SERVER_PREPARE: void 0,
+    CHAT_SERVER_DESTROY: void 0,
+    CHAT_SERVER_CONNECTION_OFF: void 0,
+    CHAT_SERVER_CONNECTION_ON: void 0,
+    CHAT_SERVER_CONNECTION_TRY: void 0,
+    CHAT_SERVER_DISCONNECTION_TRY: void 0,
+    FILL_CHAT_DATA: data => data,
+    CHAT_CREATE_NEW_ROOM: data => data,
+    FILL_CHAT_DATA_ROOM: data => data,
+    SET_ACTIVE_ROOM: data => data,
+    SET_ACTIVE_MESSAGE: data => data,
+    CHAT_SEND_NEW_MESSAGE: data => data,
+    ADD_NEW_MESSAGE: data => data,
+    CHANGE_CURRENT_ROOM_MESSAGE: data => data,
+    CLEAR_CURRENT_ROOM_MESSAGE: data => data,
+    CHAT_SEARCH_CHANGE: data => data,
+    CHAT_SEND_MESSAGES_READ: data => data,
+    CHAT_MSGS_STATUS_READ: data => data,
+    ADD_NEW_MESSAGE_TO_ALL: data => data,
+    CHAT_READ_ALL_NEW_MSGS: void 0,
+    CHAT_SELECT_MESSAGE: data => data
+});

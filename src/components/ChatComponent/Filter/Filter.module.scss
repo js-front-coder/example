@@ -1,0 +1,16 @@
+.filter {
+  background: transparent;
+}
+
+.filter__input {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #CFD7E3;
+  padding: 8px 12px;
+  color: #1D2531;
+
+  &::placeholder {
+    color: #CFD7E3;
+  }
+}

@@ -1,0 +1,47 @@
+@media(any-hover: hover) {
+  .itemLink {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .activeLink {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.itemLink {
+  color: #1d2531;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-right: 32px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.activeLink {
+  color: #3878ff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  border-bottom: 3px solid #3878ff;
+  &:active {
+    opacity: 1;
+  }
+}
+
+.wrapperNavigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #cfd7e3;
+  margin: 32px 0;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>4AC84995-3908-4420-8CD5-C2AA1AC7F42A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M453.000187,35 C452.744203,35 452.488219,34.9020017 452.293232,34.7070052 C451.902256,34.3160122 451.902256,33.6840235 452.293232,33.2930305 L457.585901,28.000125 L452.293232,22.7072195 C451.902256,22.3162265 451.902256,21.6842378 452.293232,21.2932448 C452.684207,20.9022517 453.316168,20.9022517 453.707143,21.2932448 L459.706768,27.2931376 C460.097744,27.6841306 460.097744,28.3161194 459.706768,28.7071124 L453.707143,34.7070052 C453.512155,34.9020017 453.256171,35 453.000187,35" id="path-1"></path>
+    </defs>
+    <g id="ExportIcons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-448.000000, -20.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Fill-1" fill="#000000" xlink:href="#path-1"></use>
+            <rect id="Mask" fill="#000000" mask="url(#mask-2)" x="448" y="20" width="16" height="16"></rect>
+        </g>
+    </g>
+</svg>

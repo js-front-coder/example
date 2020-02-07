@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>UI/Icons/24-arrow-change Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,19 C11.58,19 11.204,18.737 11.06,18.342 L8.041,10.039 L6.949,13.316 C6.813,13.725 6.431,14 6,14 L3,14 C2.448,14 2,13.553 2,13 C2,12.448 2.448,12 3,12 L5.279,12 L7.051,6.684 C7.186,6.28 7.561,6.006 7.986,6 L8,6 C8.42,6 8.796,6.263 8.94,6.658 L11.959,14.961 L15.052,5.684 C15.19,5.269 15.598,5.011 16.021,5 C16.46,5.01 16.841,5.304 16.962,5.725 L18.754,12 L21,12 C21.553,12 22,12.448 22,13 C22,13.553 21.553,14 21,14 L18,14 C17.554,14 17.161,13.704 17.038,13.274 L15.927,9.383 L12.949,18.316 C12.814,18.72 12.439,18.994 12.014,19 L12,19 Z" id="path-1"></path>
+    </defs>
+    <g id="Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.1.-Wallet-/-Charts" transform="translate(-844.000000, -263.000000)">
+            <g id="Group-18-Copy" transform="translate(712.000000, 248.000000)">
+                <g id="wallet-chart-white" transform="translate(120.000000, 0.000000)">
+                    <g id="UI/Icons/24-pulse" transform="translate(10.000000, 10.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Fill-1" fill="#000A64" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#4C6180" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

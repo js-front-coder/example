@@ -1,0 +1,148 @@
+@import '../../../theme/palette';
+
+@media (any-hover: hover) {
+  .button {
+    &:hover {
+      background-color: $btn-blue-hover;
+    }
+  }
+  .buttonResend{
+    &:hover {
+      background-color: rgba(6, 239, 188, 0.6);
+    }
+  }
+  .close {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.wrapperModal {
+  width: 484px;
+  border-radius: 8px;
+  position: relative;
+  padding: 40px 32px 24px;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 31px;
+  border-bottom: 2px solid #cfd7e3;
+}
+
+.wrapperButton {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.close {
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 15px;
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.label {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.centeredWrapperStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 15px;
+  border-bottom: 2px solid #cfd7e3;
+  margin-bottom: 25px;
+}
+
+.input {
+  height: 40px;
+  width: 270px;
+  padding: 0 12px;
+  border-radius: 4px;
+  border: 1px solid #cfd7e3;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+  font-size: 18px;
+  letter-spacing: 0.32px;
+
+  &::placeholder {
+    color: #cfd7e3;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+  }
+  &:focus {
+    border-color: #03b2cb;
+  }
+}
+
+.button {
+  color: $white;
+  height: 40px;
+  border: none;
+  width: 176px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 1.35px;
+  background-color: $blue;
+  text-transform: uppercase;
+  font-weight: 800;
+  &:active {
+    background-color: $btn-blue-active;
+  }
+}
+
+.buttonResend {
+  width: 142px;
+  margin-bottom: 16px;
+  background-color: #06efbc;
+  padding: 0;
+  &:active {
+    background-color: rgba(6, 239, 188, 0.8);
+  }
+}
+
+.wrapperButtons {
+  text-align: center;
+}
+
+.disable {
+  background-color: #90a5c2;
+  pointer-events: none;
+}
+
+@media (max-width: 576px) {
+  .wrapperModal {
+    width: 100%;
+    padding: 40px 15px 24px 15px;
+  }
+  .input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .buttonResend {
+    font-size: 11px;
+  }
+  .wrapperLable {
+    margin-right: 8px;
+  }
+  .title {
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>48EB36A0-8EAA-4306-8D17-2690519220E8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M18.7765683,4.66856425 L19.0674689,3.12486935 L21.0328763,3.49523935 L20.2556044,7.61991427 L16.10506,8.59501277 L15.6476482,6.64802165 L17.498406,6.21321815 C16.2803917,5.03336855 14.720662,4.26848831 13.0036082,4.05980169 C8.60027568,3.52460318 4.59657009,6.6470797 4.05993191,11.0319876 C3.52337151,15.41626 6.65581536,19.4050871 11.0585915,19.9402072 C14.3532936,20.3406249 17.5175488,18.685923 19.0817845,15.8335709 L20.8353983,16.7952563 C18.8808845,20.3592725 14.9298454,22.4254118 10.8172918,21.9255975 C5.31885639,21.2573093 1.40374166,16.2718358 2.07474333,10.7890343 C2.74566466,5.30688943 7.74721181,1.40619963 13.244914,2.07441218 C15.3508536,2.33036305 17.2679687,3.25214326 18.7765683,4.66856425 Z M12,12 L15,12 L15,14 L12,14 L10,14 L10,7 L12,7 L12,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.649999976">
+        <g id="1.-Send-entry" transform="translate(-906.000000, -258.000000)">
+            <g id="UI/Icons/24-history" transform="translate(904.000000, 256.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#3878FF" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>F6847761-349D-4BC9-A880-6457A5009BB9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12,14 C13.103,14 14,13.103 14,12 C14,10.897 13.103,10 12,10 C10.897,10 10,10.897 10,12 C10,13.103 10.897,14 12,14 Z M12,8 C14.209,8 16,9.791 16,12 C16,14.209 14.209,16 12,16 C9.791,16 8,14.209 8,12 C8,9.791 9.791,8 12,8 Z M20,13 L20,11 C17.79,11 16,9.21 16,7 L8,7 C8,9.21 6.21,11 4,11 L4,13 C6.21,13 8,14.79 8,17 L16,17 C16,14.79 17.79,13 20,13 Z M20,16.63 L20,15 C18.897,15 18,15.897 18,17 L19.63,17 C19.834,17 20,16.834 20,16.63 Z M4.37,17 L6,17 C6,15.897 5.103,15 4,15 L4,16.63 C4,16.834 4.166,17 4.37,17 Z M4,7.37 L4,9 C5.103,9 6,8.103 6,7 L4.37,7 C4.166,7 4,7.166 4,7.37 Z M19.63,7 L18,7 C18,8.103 18.897,9 20,9 L20,7.37 C20,7.166 19.834,7 19.63,7 Z M19.63,5 C20.94,5 22,6.06 22,7.37 L22,10.46 L22,13.54 L22,16.63 C22,17.94 20.94,19 19.63,19 L16.54,19 L7.46,19 L4.37,19 C3.06,19 2,17.94 2,16.63 L2,13.54 L2,10.46 L2,7.37 C2,6.06 3.06,5 4.37,5 L7.46,5 L16.54,5 L19.63,5 Z" id="path-500"></path>
+    </defs>
+    <g id="Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1.-Top-up" transform="translate(-470.000000, -338.000000)">
+            <g id="bank-btn-copy" transform="translate(452.000000, 325.000000)">
+                <g id="UI/Icons/24-bank" transform="translate(16.000000, 8.000000)">
+                    <mask id="mask-500" fill="white">
+                        <use xlink:href="#path-500"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#000000" xlink:href="#path-500"></use>
+                    <rect id="Rectangle" fill="#4C6180" mask="url(#mask-500)" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

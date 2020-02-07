@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>UI / Icons / 16-info</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,14 C11.309,14 14,11.309 14,8 C14,4.691 11.309,2 8,2 C4.691,2 2,4.691 2,8 C2,11.309 4.691,14 8,14 Z M8,0 C12.418,0 16,3.582 16,8 C16,12.418 12.418,16 8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 Z M8,7 C8.553,7 9,7.448 9,8 L9,11 C9,11.552 8.553,12 8,12 C7.447,12 7,11.552 7,11 L7,8 C7,7.448 7.447,7 8,7 Z M8.3799,4.0796 C8.4999,4.1296 8.6089,4.1996 8.7099,4.2896 C8.8899,4.4796 8.9999,4.7396 8.9999,4.9996 C8.9999,5.2596 8.8899,5.5196 8.7099,5.7096 C8.5199,5.8896 8.2599,5.9996 7.9999,5.9996 C7.9299,5.9996 7.8699,5.9896 7.7999,5.9796 C7.7399,5.9696 7.6799,5.9496 7.6199,5.9196 C7.4999,5.8696 7.3799,5.7996 7.2899,5.7096 C7.1089,5.5196 6.9999,5.2596 6.9999,4.9996 C6.9999,4.7396 7.1089,4.4796 7.2899,4.2896 L7.4399,4.1696 C7.4999,4.1296 7.5599,4.0996 7.6199,4.0796 C7.6799,4.0496 7.7399,4.0296 7.7999,4.0196 C7.9999,3.9796 8.1999,3.9996 8.3799,4.0796 Z" id="path-1"></path>
+    </defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.-Status-DOne" transform="translate(-196.000000, -40.000000)">
+            <g id="UI-/-Icons-/-16-info" transform="translate(196.000000, 40.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#4C6180" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
