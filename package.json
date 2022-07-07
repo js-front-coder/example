@@ -10,7 +10,7 @@
     "formik": "^1.5.4",
     "history": "^4.9.0",
     "leaflet": "^1.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pesapaljs": "^1.0.0",
     "qrcode.react": "^0.9.3",
     "query-string": "^6.5.0",
